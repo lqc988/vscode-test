@@ -1,0 +1,121 @@
+#container {
+    display: grid;
+    grid-template-areas: "header header header header header header";
+    grid-gap: 10px;
+    background-color: #2196f3;
+    padding: 10px;
+    grid-auto-rows: auto;
+}
+
+#header {
+    display: grid;
+    grid-area: header;
+    background-color: #fff;
+    grid-template-areas: "shop shop shop shop shop shop" "login login login login login login " "title title title title title title " "search search search search search search " "menu menu menu menu menu menu ";
+    grid-auto-rows: 80px;
+    background-color: #eee;
+}
+
+.bg {
+    width: 1200px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+#shop {
+    display: grid;
+    grid-area: shop;
+}
+
+#shop img {
+    position: absolute;
+}
+
+#shop ul {
+    position: absolute;
+    float: left;
+    align-items: center;
+    display: inline;
+}
+
+#shop ul li {
+    /* padding-left: 20px;
+    padding-top: 5px; */
+    list-style: none;
+}
+
+#shop ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+#shop ul li a:hover {
+    text-decoration: underline;
+}
+
+#login {
+    grid-area: login;
+    background-color: #f6b84b;
+    border-bottom: 3px solid black;
+}
+
+#login img {
+    /* margin-left: 350px; */
+    margin-top: 10px;
+    height: 80%;
+}
+
+#login p {
+    float: right;
+    /* margin: 35px 500px 0px 0px; */
+}
+
+#login p a {
+    text-decoration: none;
+}
+
+#title {
+    /*grid-area: title;*/
+    background-color: #eee;
+}
+
+#date {
+    /*display: inline-block;*/
+    margin-top: 20px;
+    float: left;
+    /* margin-left: 360px; */
+}
+
+.code {
+    display: none;
+    position: absolute;
+    margin-left: 580px;
+    width: auto;
+    height: 100px;
+    margin-top: 10px;
+    z-index: 999;
+}
+
+.code-txt {
+    margin-left: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.code-txt:hover .code {
+    display: block;
+}
+
+.loger {
+    float: right;
+}
+
+#search {
+    grid-area: search;
+    background-color: darkcyan;
+}
+
+#menu {
+    grid-area: menu;
+    background-color: darkred;
+}

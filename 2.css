@@ -1,0 +1,201 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    
+    .top {
+        display: grid;
+        background: #eee;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .top1 {
+        height: 80px;
+    }
+    
+    .top1>img {
+        float: left;
+        height: 100%;
+    }
+    
+    .top1 ul {
+        float: right;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        padding-inline-start: 40px;
+    }
+    
+    .top1 ul li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+        font-size: 14px;
+        padding: 5px;
+    }
+    
+    .txt-title a {
+        text-decoration: none;
+        color: #666;
+    }
+    
+    .login-sty {
+        display: flex;
+        width: 100%;
+        background-color: #f6b84b;
+        border-bottom: 3px solid black;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .login-sty1 {
+        width: 1200px;
+    }
+    
+    .login-sty1 p {
+        float: right;
+    }
+    
+    .login-sty1 p a {
+        text-decoration: none;
+        padding: 2px;
+        font-size: 14px;
+    }
+    /* 标题栏 */
+    
+    .regin {
+        display: flex;
+        background: white;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .regin-title {
+        display: flex;
+        width: 1200px;
+        height: 125px;
+        align-items: center;
+        /* float: left; */
+        background-image: url(/img/bg_title.png);
+    }
+    
+    .titi1 {
+        height: 48px;
+        padding: 5px;
+    }
+    
+    .titi2 {
+        width: 305px;
+        height: 33px;
+        padding: 5px;
+    }
+    
+    .search {
+        /* margin-left: 200px; */
+        /* height: 100%; */
+        width: 250px;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .search-box {
+        border: 1px solid #666;
+        margin-left: 200px;
+        border-radius: 35px;
+        height: 40%;
+        width: 400px;
+    }
+    
+    .search-box img {
+        width: 24px;
+        height: 24px;
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+    
+    .sea-btn {
+        height: 100%;
+        width: 80px;
+        float: right;
+        border-radius: 35px;
+        color: white;
+        background-color: #cd0401;
+        font-size: 18px;
+        border: none;
+    }
+    /* 登录栏 */
+    
+    .title {
+        display: flex;
+        background: #eee;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+    }
+    
+    #title1 {
+        width: 1200px;
+        /* display: flex; */
+    }
+    
+    #date {
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .code {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 148px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: -30px;
+    }
+    
+    .loger {
+        float: right;
+    }
+    
+    #title1 a:hover img {
+        display: inline-block;
+    }
+    
+    #title1 a {
+        /* color: red; */
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(238, 74, 74);
+        height: 60px;
+    }
+    
+    .menu_nav {
+        display: flex;
+        width: 1200px;
+        justify-content: space-between;
+    }
+    
+    .menu_nav a {
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    /* //获取鼠标 */
+    
+    .menu_nav a:hover {
+        background: rgb(134, 62, 62);
+        /* color: rgb(71, 38, 38); */
+        display: block;
+        display: inline;
+    }
